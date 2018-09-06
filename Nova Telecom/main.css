@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #7e459b;
+  color: #9bc2f5;
+  margin-top: 0;
+  padding: 15px;
+}
+header h1 {
+  text-transform: uppercase;
+}
+
+.container {
+  background-image: url("./background.png");
+  background-size: cover;
+}
+.container #divtabela {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.container #divtabela table {
+  border-collapse: collapse;
+}
+.container #divtabela table th {
+  padding: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.container #divtabela table tr td {
+  padding: 4px 0;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.container #divtabela table tr td input, .container #divtabela table tr td select {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.container #divtabela table tr td .resultCom, .container #divtabela table tr td .resultSem {
+  font-size: 18px;
+  color: red;
+}
+.container #rowDetalhes {
+  text-align: center;
+}
+.container #rowDetalhes h2 {
+  color: #892d9c;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 20px 0;
+  margin: 0;
+}
+.container #rowBotoes {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.container #rowBotoes .botao {
+  background-color: #892d9c;
+  color: #9bc2f5;
+  padding: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  height: 55px;
+  width: 200px;
+}
+
+footer h3 {
+  background-color: #7e459b;
+  font-size: 15px;
+  color: #9bc2f5;
+  text-align: center;
+  padding: 15px 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

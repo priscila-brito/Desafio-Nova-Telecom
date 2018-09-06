@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color:#7e459b;
+  color: rgb(155, 194, 245);
+  margin-top: 0;
+  padding: 15px;
+    h1 {
+      text-transform: uppercase;
+    }
+}
+
+.container {
+  background-image: url('./background.png');
+  background-size: cover;
+  
+  #divtabela {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+    table {
+      border-collapse: collapse;
+      th {
+        padding: 20px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+
+      tr {
+        td {
+          padding: 4px 0;
+          border: 1px solid black;
+          border-collapse: collapse;
+          text-align: center;
+
+          input, select {
+            background-color: transparent;
+            border: none;
+            font-size: 15px;
+            padding-left: 10px;
+          }
+
+          .resultCom, .resultSem {
+              font-size: 18px;
+              color: red;
+          }
+        }
+      }  
+    }
+  }
+
+  #rowDetalhes {
+    text-align: center;
+    h2 {
+    color:#892d9c;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 0;
+    margin: 0;
+    }
+  }
+
+  #rowBotoes{
+    text-align: center;
+    padding-bottom: 40px;
+    .botao {
+    background-color: #892d9c;
+    color: rgb(155, 194, 245);
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    height: 55px;
+    width: 200px;
+    }
+  }
+}
+
+footer {
+  h3 {
+    background-color: #7e459b;
+    font-size: 15px;
+    color: rgb(155, 194, 245);
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+  }
+}
+
